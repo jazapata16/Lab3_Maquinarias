@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="public/stylesheets/style.css" />
+    <title>Curriculum Vitae</title>
+  </head>
+
+  <body>
+
+    <header>
+      <h1>Curriculum Vitae</h1>
+    </header>
+
+    <!-- Nav: Inicio -->
+    <nav>
+      <ul>
+        <li id="nav_uno"><a href="#secciondatos">Datos Personales</a></li>
+        <li id="nav_dos"><a href="#seccionredes">Redes Sociales</a></li>
+        <li id="nav_tres"><a href="#seccionhabilidades">Habilidades</a></li>
+        <li id="nav_cuatro"><a href="#secciongaleria">Galería</a></li>
+        <li id="nav_cinco"><a href="#seccioncontactenos">Contáctenos</a></li>
+        <li id="nav_seis"><a href="#seccioneducacion">Eduación</a></li>
+        <li id="nav_siete"><a href="#seccionexperiencia">Experiencia Laboral</a></li>
+      </ul>
+    </nav>
+    <!-- Nav: Fin -->
+
+    <section id="secciondatos" class="seccion">
+      <h2>Datos personales</h2>
+      <span>Nombres:</span><span>Jorge Adrian</span><br>
+      <span>Apellidos:</span> <span>Zapata Cañizares</span>
+      <p>¡Hola! Soy Jorge Zapata, con experiencia en desarrollo web en front end y
+        back end. Participo en todas las etapas
+        del ciclo de desarrollo de proyectos web dinámicos. Además, tengo
+        sólidos conocimientos en gestión de proyectos
+        y relaciones con los clientes.</p>
+
+    </section>
+
+    <section id="seccionredes" class="seccion">
+      <h2>Redes sociales</h2>
+
+      <span><a href="https://www.linkedin.com/">LinkedIn</a></span>
+      <span><a href="https://github.com/">Github</a></span>
+
+    </section>
+
+    <section id="seccionhabilidades" class="seccion">
+      <h2>Habilidades Profesionales</h2>
+      <ul>
+        <li>Html & CSS</li>
+        <li>JavaScript</li>
+        <li>ReactJS</li>
+        <li>Django</li>
+        <li>Express</li>
+      </ul>
+
+      <h2>Idiomas</h2>
+
+      <table>
+        <caption>Habilidad en idiomas</caption>
+        <tr>
+          <th></th>
+          <th>Básico</th>
+          <th>Intermedio</th>
+          <th>Avanzado</th>
+          <th>Nativo</th>
+        </tr>
+        <tr>
+          <th>Inglés</th>
+          <td></td>
+          <td></td>
+          <td>X</td>
+          <td></td>
+        </tr>
+        <tr>
+          <th>Español</th>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td>X</td>
+        </tr>
+      </table>
+
+      <h2>Contenidos Transversales</h2>
+      <ol>
+        <li>Docker</li>
+        <li>AWS</li>
+        <li>CI/CD</li>
+        <li>Scrum</li>
+      </ol>
+    </section>
+
+    <aside id="secciongaleria" class="seccion">
+      <img src="public/images/reading.jpg" alt="Reading" width="60%"><br>
+      <img
+        src="https://cdn.pixabay.com/photo/2015/05/29/19/18/cafe-789635_960_720.jpg"
+        alt="Foto de colaboración" width="60%">
+
+    </aside>
+
+    <section id="seccioncontactenos" class="seccion">
+      
+      <h2 id="contactame">Contáctame</h2>
+      
+      <h3 id="susdatos">Sus datos</h3>
+
+      <form id="texto">
+        <label for="nombre">Nombres:</label><input type="text" name="nombre"
+          id="nombre">
+        <label for="nombre">Apellidos:</label><input type="text"
+          name="apellidos"
+          id="apellidos">
+
+        <label for="edad">Seleccione su rango de edad</label>
+
+        <div><input type="radio" id="opcion1" name="edad" value="menor25"><label
+          for="opcion1"> menor a 25 años</label></div>
+
+        <div><input type="radio" id="opcion2" name="edad" value="entre26y20"><label
+          for="opcion2"> entre 26 y 30 años</label></div>
+
+        <div><input type="radio" id="opcion3" name="edad" value="mayor31"><label
+          for="opcion3"> mayor a 31 años</label><br></div>
+
+        <label for="tiposervicio">Seleccione el tipo de servicio a consultar</label>
+
+        <div><input type="checkbox" name="frontend" id="frontend"><label
+          for="frontend">Frontend Dev</label></div>
+
+        <div><input type="checkbox" name="backend" id="backend"><label for="backend">Backend
+          Dev</label></div>
+
+        <div><input type="checkbox" name="scrum" id="scrum"><label for="scrum">Desarrollo
+          de software</label></div>
+
+        <div><input type="checkbox" name="cicd" id="cicd"><label for="cicd">CI/CD</label></div>
+        <button type="submit">Enviar</button>
+      </form>
+
+
+      <h3 id="ubi" >Ubicación</h3>
+      <div id="mapa" >
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15948.111266768696!2d-79.9571968!3d-2.1430272!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x902d72f63a84bb9b%3A0xcc923bf175c1350b!2sOficina%20de%20Admisiones%20ESPOL!5e0!3m2!1sen!2sec!4v1673706967426!5m2!1sen!2sec" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+
+
+    <section id="seccioneducacion" class="seccion">
+      <h2>Educación</h2>
+      <h3>Educacion Media</h3>
+      <h4>Liceo Naval de Guayaquil</h4>
+      <address>
+        Pagina Web: <a href="https://licgua.armada.mil.ec/">Pagina Web</a><br>
+        Tel: <a href="tel:+593983750553">Telefono</a><br>
+        Direccion: <a href="https://goo.gl/maps/gYY18Wq2PsrEWr9Q8">Dirección</a>
+      </address>
+
+      <h3>Educacion Superior</h3>
+      <h4>Escuela Superior Politecnica del litoral</h4>
+      <address>
+        Pagina Web: <a href="https://www.espol.edu.ec/">Pagina Web</a><br>
+        Tel: <a href="tel:+593983750553">Telefono</a><br>
+        Direccion: <a href="https://goo.gl/maps/zFDkzTMCZrNhehD18">Dirección</a>
+      </address>
+    </section>
+
+
+    <section id="seccionexperiencia" class="seccion">
+      <h2>Experiencia Laboral</h2>
+      <ul>
+        <li>Walmart</li>
+        <li>JZ 3D Printing</li>
+      </ul>
+
+    </section>
+    <footer>
+      <address>
+        <div> Email: <a href="mailto:jazapata@espol.edu.ec">CORREO</a></div>
+        <div> Tel: <a href="tel:+593983750553">TELEFONO</a></div>
+        <div> DIRECCIÓN: Recreo 4ta Etapa</div>
+        <div> CIUDAD: Duran - Guayas</div>
+        <div> PAÍS: Ecuador</div>
+      </address>
+    </footer>
+
+  </body>
+</html>
